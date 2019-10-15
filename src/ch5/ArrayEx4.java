@@ -22,7 +22,7 @@ public class ArrayEx4 {
         System.arraycopy(abc, 0, num, 0, abc.length);
         System.out.println(num);
 
-        // num배열의 6번째 인덱스 위치에 abc배열의 앞 2개요소 덮어쓰기 
+        // num배열의 6번째 인덱스 위치에 abc배열의 앞 2개요소 덮어쓰기
         System.arraycopy(abc, 0, num, 6, 2);
         System.out.println(num);
     }
